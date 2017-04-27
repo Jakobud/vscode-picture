@@ -1,14 +1,23 @@
 {
     "name": "vscode-picture",
-    "displayName": "HTML5 Picture Element",
-    "description": "Picture Element snippet",
-    "version": "0.0.1",
-    "publisher": "jakewilson",
+    "displayName": "Picture Element",
+    "description": "HTML5 Picture Element snippet",
+    "version": "1.0.0",
+    "publisher": "JakeWilson",
+    "author": "Jake Wilson",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.11.0"
     },
     "categories": [
         "Snippets"
+    ],
+    "keywords": [
+        "picture",
+        "srcset",
+        "source",
+        "html",
+        "html5"
     ],
     "contributes": {
         "snippets": [
@@ -17,5 +26,14 @@
                 "path": "./snippets/snippets.json"
             }
         ]
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Jakobud/vscode-picture.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Jakobud/vscode-picture/issues"
+    },
+    "homepage": "https://github.com/Jakobud/vscode-picture",
+    "icon": "icon.svg"
 }
