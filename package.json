@@ -1,0 +1,21 @@
+{
+    "name": "vscode-picture",
+    "displayName": "HTML5 Picture Element",
+    "description": "Picture Element snippet",
+    "version": "0.0.1",
+    "publisher": "jakewilson",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
